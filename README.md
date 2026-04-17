@@ -1,2 +1,3 @@
-# Toarnbeike.SourceGenLib
-A small helper library for commonly repeated source generation utilities.
+# Toarnbeike.SourceGeneration
+
+`Toarnbeike.SourceGeneration` is a utility library for common Source generation abstractions and helper functions.
