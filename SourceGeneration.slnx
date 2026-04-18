@@ -6,7 +6,9 @@
     <File Path="Directory.Packages.props" />
     <File Path="README.md" />
   </Folder>
-  <Folder Name="/src/" />
+  <Folder Name="/src/">
+    <Project Path="src/SourceGeneration/SourceGeneration.csproj" Id="8c7fca7c-3845-4ec8-9e36-153ff13cfef9" />
+  </Folder>
   <Folder Name="/tests/" />
   <Folder Name="/workflows/">
     <File Path=".github/workflows/build.yaml" />
