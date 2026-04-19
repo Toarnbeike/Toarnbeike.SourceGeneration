@@ -1,7 +1,7 @@
 ﻿using System.Text;
 // ReSharper disable ConvertToExtensionBlock -- name of arguments are valuable and different.
 
-namespace Toarnbeike.SourceGeneration.Rendering.Text;
+namespace Toarnbeike.SourceGeneration.Rendering;
 
 public static class TextRenderingExtensions
 {

@@ -10,7 +10,7 @@ public static class HashCodeHelper
     {
         unchecked
         {
-            int hash = 17;
+            var hash = 17;
             hash = hash * 23 + (v1?.GetHashCode() ?? 0);
             hash = hash * 23 + (v2?.GetHashCode() ?? 0);
             return hash;

@@ -1,5 +1,4 @@
 ﻿using Microsoft.CodeAnalysis;
-using Toarnbeike.SourceGeneration.Rendering.Text;
 
 namespace Toarnbeike.SourceGeneration.Rendering.Usings;
 

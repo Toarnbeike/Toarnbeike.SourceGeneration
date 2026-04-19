@@ -1,6 +1,6 @@
-﻿namespace Toarnbeike.SourceGeneration.Naming;
+﻿namespace Toarnbeike.SourceGeneration.Rendering;
 
-public static class StringNamingExtensions
+public static class NamingExtensions
 {
     public static string ToCamelCase(this string name)
     {

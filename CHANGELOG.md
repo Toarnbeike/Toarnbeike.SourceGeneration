@@ -6,7 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [0.1.0] - Unpublished
+## [0.2.0] - 2026-04-19
+Local nuget feed release
+
+### Added
+- Inclusion of IsExternalInit using buildTransitive
+- Pack and publish on build to local feed
+
+## [0.1.0] - 2026-04-18
 Initial release of SourceGeneration library.
 
 ### Added

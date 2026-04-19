@@ -1,0 +1,7 @@
+<Project>
+	<ItemGroup>
+		<Compile Include="$(MSBuildThisFileDirectory)NetStandardCompatibility\IsExternalInit.cs">
+			<Link>NetStandardCompatibility\IsExternalInit.cs</Link>
+		</Compile>
+	</ItemGroup>
+</Project>

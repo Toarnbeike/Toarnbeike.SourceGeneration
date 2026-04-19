@@ -1,7 +1,7 @@
 ﻿using Microsoft.CodeAnalysis;
 using System.Collections.Immutable;
 using System.Xml.Linq;
-using Toarnbeike.SourceGeneration.Rendering.Text;
+using Toarnbeike.SourceGeneration.Rendering;
 
 namespace Toarnbeike.SourceGeneration.Documentation;
 
