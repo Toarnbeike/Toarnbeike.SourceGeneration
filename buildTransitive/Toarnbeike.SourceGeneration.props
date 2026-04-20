@@ -1,5 +1,5 @@
 <Project>
-	<ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
 		<Compile Include="$(MSBuildThisFileDirectory)NetStandardCompatibility\IsExternalInit.cs">
 			<Link>NetStandardCompatibility\IsExternalInit.cs</Link>
 		</Compile>
