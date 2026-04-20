@@ -28,7 +28,7 @@ jobs:
         run: dotnet restore
 
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build src/SourceGeneration/SourceGeneration.csproj --configuration Release --no-restore
 
       - name: Pack SourceGeneration
         run: dotnet pack src/SourceGeneration/SourceGeneration.csproj --configuration Release --no-build --output ./nupkgs
