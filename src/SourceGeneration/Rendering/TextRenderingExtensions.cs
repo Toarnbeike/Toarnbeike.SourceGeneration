@@ -13,10 +13,23 @@ public static class TextRenderingExtensions
     public static string JoinLines(this IEnumerable<string> lines) => string.Join("\n", lines);
 
     /// <summary>
+    /// Join a set of lines by placing them as paragraphs on new lines.
+    /// Utility function to make pipelines nicer.
+    /// </summary>
+    /// <param name="lines">The lines to place.</param>
+    public static string JoinParagraphs(this IEnumerable<string> lines) => string.Join("\n\n", lines);
+
+    /// <summary>
     /// Join a set of values by placing them comma separated
     /// </summary>
     /// <param name="values">The values to separate.</param>
     public static string JoinCommaSeparated(this IEnumerable<string> values) => string.Join(", ", values);
+
+    /// <summary>
+    /// Join a set of values by placing them comma separated, each on a new line.
+    /// </summary>
+    /// <param name="values">The values to separate.</param>
+    public static string JoinCommaSeparatedLines(this IEnumerable<string> values) => string.Join(",\n", values);
 
     /// <summary>
     /// Reformats a string by replacing whitespace characters with a space.
